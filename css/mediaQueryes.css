@@ -1,0 +1,115 @@
+@media only screen and (min-width: 1000px) {
+
+    .container-started{
+        margin-bottom: 0;
+    }
+
+    .container-started p {
+        width: 40%;
+    }
+
+    .container-started button {
+        width: 20%;
+        height: 60px;
+    }
+
+    .container-started figure {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    /* Stadistics */
+    .container-stadisticas-main {
+        flex-direction: row;
+        gap: 0;
+        margin: 50px auto 200px auto;
+    }
+
+    /* Sections */
+    .sections{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px;
+    }
+
+    .container-data{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+
+        text-align: left;
+    }
+
+    .container-data h2{
+        font-size: 32px;
+    }
+
+    .container-data p{
+        margin: 0;
+    }
+
+    .sections img{
+        width: 50%;
+    }
+
+    #container-grow-together img{
+        order: 1;
+    }
+
+    #container-your-users img{
+        order: 1;
+    }
+
+    /* Section 'Ready to build your community?' */
+
+    #container-get-started-free{
+        margin: 50px auto 200px auto;
+        gap: 30px;
+    }
+
+    #container-get-started-free .button{
+        width: 20%;
+        padding: 20px;
+    }
+
+    /* Footer */
+    footer{
+        flex-direction: row;
+        padding: 100px 80px 20px 80px;
+    }
+
+    .wave-footer{
+        background-image: url("../images/bg-footer-top-desktop.svg");
+    }
+
+    .container-logo-p p{
+        width: 70%;
+    }
+
+    .container-newsletter{
+        order: 1;
+    }
+
+    .container-newsletter h1{
+        font-size: 24px;
+    }
+
+    .container-newsletter p{
+        width: 60%;
+    }
+
+    .form-suscriber{
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .form-suscriber input{
+        width: 60%;
+    }
+
+    .form-suscriber .button{
+        width: 30%;
+    }
+}
